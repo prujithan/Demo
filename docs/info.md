@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+The design is a single 2-input AND gate. Input A (ui[0]) and input B (ui[1])
+feed the gate, and the result is driven on output uo[0].
 ## How to test
 
-Explain how to use your project
+Set ui[0] and ui[1] to each combination of 0 and 1. uo[0] should be 1 only
+when both inputs are 1, and 0 otherwise.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
